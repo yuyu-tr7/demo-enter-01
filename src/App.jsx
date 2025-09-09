@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import BackendDemo from "./BackendDemo";
+import FigmaComponentGenerator from "./components/FigmaComponentGenerator";
 
 // Main App Header
 function AppHeader() {
@@ -319,6 +320,11 @@ function MainContent() {
               {/* Atmospheric elements */}
               <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-orange-200/30 to-transparent"></div>
             </div>
+          </div>
+
+          {/* Figma Integration Section */}
+          <div className="mt-16">
+            <FigmaComponentGenerator />
           </div>
         </div>
       </div>
