@@ -139,7 +139,7 @@ export default function FigmaExamples() {
             <div>
               <h4 className="font-medium text-gray-800 mb-2">For Style Conversion:</h4>
               <code className="block bg-gray-200 p-3 rounded text-sm">
-                "Convert this Figma CSS to Tailwind classes using convertFigmaToTailwind(): {width: '200px', height: '100px', backgroundColor: 'rgb(59, 130, 246)', borderRadius: '8px'}"
+                {`"Convert this Figma CSS to Tailwind classes using convertFigmaToTailwind(): {width: '200px', height: '100px', backgroundColor: 'rgb(59, 130, 246)', borderRadius: '8px'}"`}
               </code>
             </div>
             
