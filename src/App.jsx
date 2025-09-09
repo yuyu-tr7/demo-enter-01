@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./index.css";
 import BackendDemo from "./BackendDemo";
 import FigmaComponentGenerator from "./components/FigmaComponentGenerator";
+import FigmaComponent from "./components/FigmaComponent";
+import FigmaExamples from "./components/FigmaExamples";
 
 // Main App Header
 function AppHeader() {
@@ -325,6 +327,16 @@ function MainContent() {
           {/* Figma Integration Section */}
           <div className="mt-16">
             <FigmaComponentGenerator />
+          </div>
+
+          {/* Figma Component Example */}
+          <div className="mt-16">
+            <FigmaComponent />
+          </div>
+
+          {/* Figma Examples */}
+          <div className="mt-16">
+            <FigmaExamples />
           </div>
         </div>
       </div>
